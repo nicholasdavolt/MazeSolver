@@ -21,7 +21,7 @@ class Window:
         self.running = False
         
 
-    def draw_line(self, line, fill_color="red"):
+    def draw_line(self, line, fill_color="black"):
         line.draw(self.canvas, fill_color)
 
     def redraw(self):
@@ -46,7 +46,7 @@ class Line:
         self.point_1 = p1
         self.point_2 = p2
 
-    def draw(self, canvas, fill_color="red"):
+    def draw(self, canvas, fill_color="black"):
         x1 = self.point_1.x
         y1 = self.point_1.y
         x2 = self.point_2.x
