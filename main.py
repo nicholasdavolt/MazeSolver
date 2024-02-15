@@ -1,8 +1,8 @@
 from tkinter import Tk, BOTH, Canvas
 import time
 def main():
-    win = Window(1000, 1000)
-    m = Maze(5,5,10,10,100,100,win)
+    win = Window(800, 600)
+    m = Maze(0,0,6,8,100,100,win)
     win.wait_for_close()
 
     
